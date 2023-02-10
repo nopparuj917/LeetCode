@@ -15,10 +15,3 @@ vector<int> twoSum(vector<int> nums, int target) {
   }
   return r;
 }
-
-int main() {
-  vector<int> v = {1, 2, 3};
-
-  vector<int> r = twoSum(v, 3);
-  cout << r[0] << " " << r[1] << endl;
-}
