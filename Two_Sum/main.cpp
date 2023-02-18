@@ -9,5 +9,6 @@ int main() {
     cin >> v[i];
   }
   vector<int> r = twoSum(v, t);
-  cout << r[0] << " " << r[1] << endl;
+  cout << "index: " << r[0] << " value: " << v[r[0]] << endl;
+  cout << "index: " << r[1] << " value: " << v[r[1]] << endl;
 }
